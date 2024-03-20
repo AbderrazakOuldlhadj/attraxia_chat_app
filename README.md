@@ -7,21 +7,21 @@ Flutter android chat app
 # Features:
 
 
-## Two screens representing different users, each containing a chat list.
+### Two screens representing different users, each containing a chat list.
 
-## Real-time messaging functionality.
+### Real-time messaging functionality.
 
-## Simple navigation between screens using a bottom navigation bar.
+### Simple navigation between screens using a bottom navigation bar.
 
-## Floating action button to start a new conversation, which creates the chat in both pages.
+### Floating action button to start a new conversation, which creates the chat in both pages.
 
-## Indicator of the number of new messages for each chat list tile.
+### Indicator of the number of new messages for each chat list tile.
 
-## Bidirectional communication between the two screens.
+### Bidirectional communication between the two screens.
 
 # Backend: 
 
-##FirebaseFirestore
+### FirebaseFirestore
 
 # Apk:
 
