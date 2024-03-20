@@ -1,16 +1,31 @@
 # chat_test
 
-A new Flutter project.
+Flutter android chat app 
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+#Features:
+● Two screens representing different users, each containing a chat list.
+● Real-time messaging functionality.
+● Simple navigation between screens using a bottom navigation bar.
+● Floating action button to start a new conversation, which creates the chat in both pages.
+● Indicator of the number of new messages for each chat list tile.
+● Bidirectional communication between the two screens.
 
-A few resources to get you started if this is your first Flutter project:
+#Backend: 
+FirbaseFirestore
+|
+|____ collection("test_chats")
+     |
+     |____ doc(chatId)
+          |
+          |____ lastMessage (Map)
+                collection("messages")
+                |
+                |____doc("messageId")
+                     |
+                     |____message (Map)
+                
+                
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
